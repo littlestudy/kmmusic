@@ -9,7 +9,7 @@ public class HandlerManager {
 		return threadLocal.get();		
 	}
 	
-	public static void setHandler(Handler value){
+	public static void putHandler(Handler value){
 		threadLocal.set(value); //UiThread  id
 	}
 }
